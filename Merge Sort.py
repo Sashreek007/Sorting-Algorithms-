@@ -39,6 +39,7 @@ def mergeSort(customList,l,r):
         mergeSort(customList,l,m)
         mergeSort(customList,m+1,r)
         merge(customList,l,m,r)
+        
     return customList
 customList=[5,8,1,2,9,11,6,12]
 r=len(customList)-1
