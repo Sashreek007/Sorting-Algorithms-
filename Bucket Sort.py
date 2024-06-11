@@ -28,25 +28,7 @@ print(bucketSort(customList))
 
 
 
-def bucket(customList):
-    NoOfBuckets=round(math.sqrt(len(customList)))
-    maxValue=max(customList)
-    arr=[]
-    for _ in range(NoOfBuckets):
-        arr.append([])
-    for i in customList:
-        bucket_i=math.ceil(i*NoOfBuckets/maxValue)
-        arr[bucket_i-1].append(i)
-    for j in range(NoOfBuckets):
-        arr[j]=selectionSort(arr[j])
-    k=0
-    for i in range(NoOfBuckets):
-        for j in range(len(arr[i])):
-            customList[k]=arr[i][j]
-            k+=1
-    return customList
 
-print(bucket(customList))
             
 
 
