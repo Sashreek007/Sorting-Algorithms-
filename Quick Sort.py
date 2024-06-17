@@ -24,4 +24,14 @@ customList=[3,5,0,6,1,2,4]
 
 print(quickSort(customList))
     
-            
+
+
+
+
+
+
+
+
+
+
+

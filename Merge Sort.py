@@ -45,3 +45,27 @@ customList=[5,8,1,2,9,11,6,12]
 r=len(customList)-1
 print(mergeSort(customList,0,7))
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
